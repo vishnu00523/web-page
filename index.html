@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DevOps Lifecycle</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+    h1 { color: #333; }
+    .cycle {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .stage {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-weight: bold;
+      color: white;
+      padding: 10px;
+    }
+    .plan { background: #2563eb; }
+    .develop { background: #059669; }
+    .build { background: #f59e0b; }
+    .test { background: #d97706; }
+    .release { background: #ef4444; }
+    .deploy { background: #7c3aed; }
+    .operate { background: #0ea5e9; }
+    .monitor { background: #6b7280; }
+    p { font-size: 0.9em; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h1>DevOps Lifecycle</h1>
+  <div class="cycle">
+    <div class="stage plan">Plan<p>Define project goals and requirements.</p></div>
+    <div class="stage develop">Develop<p>Write and manage the application code.</p></div>
+    <div class="stage build">Build<p>Compile and package the code into artifacts.</p></div>
+    <div class="stage test">Test<p>Run automated/manual tests to ensure quality.</p></div>
+    <div class="stage release">Release<p>Prepare the software for production use.</p></div>
+    <div class="stage deploy">Deploy<p>Deploy applications into live environments.</p></div>
+    <div class="stage operate">Operate<p>Maintain system availability and performance.</p></div>
+    <div class="stage monitor">Monitor<p>Track logs, metrics, and user feedback.</p></div>
+  </div>
+</body>
+</html>
